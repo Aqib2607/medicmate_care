@@ -72,13 +72,18 @@ const Navbar = () => {
               </Button>
             </Link>
             <Button
-              variant="default"
+              variant="ghost"
               size="sm"
               onClick={toggleLanguage}
-              className="flex items-center gap-1 px-2"
+              className="flex items-center gap-1 relative"
             >
               <Globe className="h-4 w-4" />
-              <span>{t('language')}</span>
+              <Badge
+                variant="destructive"
+                className="absolute -top-2 -right-2 h-5 w-5 flex items-center justify-center p-0 text-xs"
+              >
+                {t('language')}
+              </Badge>
             </Button>
             <Link to="/login">
               <Button variant="default" size="sm">
@@ -126,10 +131,15 @@ const Navbar = () => {
                   variant="ghost" 
                   size="sm" 
                   onClick={toggleLanguage}
-                  className="flex items-center justify-center gap-1 w-full"
+                  className="flex items-center justify-center gap-1 w-full relative"
                 >
                   <Globe className="h-4 w-4" />
-                  <span>{t('language')}</span>
+                  <Badge 
+                    variant="destructive" 
+                    className="absolute -top-2 -right-2 h-5 w-5 flex items-center justify-center p-0 text-xs"
+                  >
+                    {t('language')}
+                  </Badge>
                 </Button>
                 <Link to="/login" onClick={() => setIsMenuOpen(false)}>
                   <Button variant="default" size="sm" className="w-full">

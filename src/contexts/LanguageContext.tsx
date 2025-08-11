@@ -537,7 +537,7 @@ const bnTranslations: Record<string, string> = {
   'nav.contact': 'যোগাযোগ',
   'nav.login': 'লগইন',
   'nav.register': 'রেজিস্টার',
-  'language': 'EN',
+  'language': 'BN',
   
   // Footer
   'footer.quickLinks': 'দ্রুত লিঙ্ক',
