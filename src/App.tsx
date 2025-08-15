@@ -19,6 +19,7 @@ import Contact from "./pages/Contact";
 import Blog from "./pages/Blog";
 import Cart from "./pages/Cart";
 import NotFound from "./pages/NotFound";
+import DoctorAdmin from "./pages/DoctorAdmin";
 
 const queryClient = new QueryClient();
 
@@ -46,6 +47,7 @@ const App = () => (
               <Route path="/blog" element={<Blog />} />
               <Route path="/cart" element={<Cart />} />
               {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
+              <Route path="/doctor-admin" element={<DoctorAdmin />} />
               <Route path="*" element={<NotFound />} />
             </Routes>
           </main>
