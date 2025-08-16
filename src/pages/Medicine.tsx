@@ -809,6 +809,13 @@ const MedicineAndDiagnosis = () => {
                             <ShoppingCart className="w-4 h-4 mr-2" />
                             {t('medicine.addToCart')}
                           </Button>
+<<<<<<< HEAD
+=======
+                        <Button variant="outline" className="w-full" size="sm">
+                          <MessageSquare className="w-4 h-4 mr-2" />
+                          {t('medicine.diagnostic.askDoctor')}
+                        </Button>
+>>>>>>> e1a77ec8ff6ec1b936f6b12d052346f714da3f1d
                       </div>
                     </CardContent>
                   </Card>
