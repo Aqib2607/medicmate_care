@@ -685,10 +685,6 @@ const MedicineAndDiagnosis = () => {
                       <ShoppingCart className="w-4 h-4 mr-2" />
                       {t('medicine.addToCart')}
                     </Button>
-                    <Button variant="outline" className="w-full" size="sm">
-                      <MessageSquare className="w-4 h-4 mr-2" />
-                      {t('medicine.askDoctor')}
-                    </Button>
                   </div>
                 </CardContent>
               </Card>
@@ -813,10 +809,6 @@ const MedicineAndDiagnosis = () => {
                             <ShoppingCart className="w-4 h-4 mr-2" />
                             {t('medicine.addToCart')}
                           </Button>
-                        <Button variant="outline" className="w-full" size="sm">
-                          <MessageSquare className="w-4 h-4 mr-2" />
-                          {t('medicine.diagnostic.askDoctor')}
-                        </Button>
                       </div>
                     </CardContent>
                   </Card>
