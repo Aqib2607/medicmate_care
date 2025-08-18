@@ -20,11 +20,11 @@ const Navbar = () => {
 
   const navLinks = [
     { name: t('nav.home'), path: "/" },
-    { name: t('nav.bookNow'), path: "/book" },
     { name: t('nav.medicine'), path: "/medicine" },
     { name: t('nav.blog'), path: "/blog" },
     { name: t('nav.about'), path: "/about" },
     { name: t('nav.contact'), path: "/contact" },
+    { name: t('nav.bookNow'), path: "/book" },
   ];
 
   return (
