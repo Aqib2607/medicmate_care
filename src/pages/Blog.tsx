@@ -12,7 +12,9 @@ import {
   Share2,
   Bookmark
 } from "lucide-react";
-import blogHero from "@/assets/doctor-profile.jpg"; // Using existing image as placeholder
+import article1 from "@/assets/article 1.png";
+import article2 from "@/assets/article 2.png";
+import article3 from "@/assets/article 3.png";
 import { useLanguage } from "@/contexts/LanguageContext";
 
 // Sample blog post data
@@ -25,7 +27,7 @@ const featuredPosts = [
     authorKey: "blog.featuredPosts.post1.author",
     dateKey: "blog.featuredPosts.post1.date",
     readTimeKey: "blog.featuredPosts.post1.readTime",
-    image: blogHero,
+    image: article1,
     tagsKeys: ["blog.featuredPosts.post1.tag1", "blog.featuredPosts.post1.tag2", "blog.featuredPosts.post1.tag3"]
   },
   {
@@ -36,7 +38,7 @@ const featuredPosts = [
     authorKey: "blog.featuredPosts.post2.author",
     dateKey: "blog.featuredPosts.post2.date",
     readTimeKey: "blog.featuredPosts.post2.readTime",
-    image: blogHero,
+    image: article2,
     tagsKeys: ["blog.featuredPosts.post2.tag1", "blog.featuredPosts.post2.tag2", "blog.featuredPosts.post2.tag3"]
   },
   {
@@ -47,7 +49,7 @@ const featuredPosts = [
     authorKey: "blog.featuredPosts.post3.author",
     dateKey: "blog.featuredPosts.post3.date",
     readTimeKey: "blog.featuredPosts.post3.readTime",
-    image: blogHero,
+    image: article3,
     tagsKeys: ["blog.featuredPosts.post3.tag1", "blog.featuredPosts.post3.tag2", "blog.featuredPosts.post3.tag3"]
   }
 ];
