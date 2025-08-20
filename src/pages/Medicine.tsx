@@ -227,8 +227,7 @@ const MedicineAndDiagnosis = () => {
       name: "Ibuprofen",
       usage: t('medicine.ibuprofen.usage'),
       price: "200 BDT",
-      rating: 4.8,
-      reviews: 120,
+
       availability: t('medicine.availability.inStock'),
       condition: t('medicine.condition.painManagement'),
       image: "💊",
@@ -239,8 +238,7 @@ const MedicineAndDiagnosis = () => {
       name: "Amoxicillin",
       usage: t('medicine.amoxicillin.usage'),
       price: "200 BDT",
-      rating: 4.9,
-      reviews: 85,
+
       availability: t('medicine.availability.prescriptionRequired'),
       condition: t('medicine.condition.infections'),
       image: "💉",
@@ -251,8 +249,7 @@ const MedicineAndDiagnosis = () => {
       name: "Lisinopril",
       usage: t('medicine.lisinopril.usage'),
       price: "200 BDT",
-      rating: 4.7,
-      reviews: 95,
+
       availability: t('medicine.availability.inStock'),
       condition: t('medicine.condition.cardiovascular'),
       image: "❤️",
@@ -263,8 +260,7 @@ const MedicineAndDiagnosis = () => {
       name: "Metformin",
       usage: t('medicine.metformin.usage'),
       price: "200 BDT",
-      rating: 4.6,
-      reviews: 150,
+
       availability: t('medicine.availability.inStock'),
       condition: t('medicine.condition.diabetes'),
       image: "🩸",
@@ -275,8 +271,7 @@ const MedicineAndDiagnosis = () => {
       name: "Albuterol",
       usage: t('medicine.albuterol.usage'),
       price: "200 BDT",
-      rating: 4.9,
-      reviews: 200,
+
       availability: t('medicine.availability.prescriptionRequired'),
       condition: t('medicine.condition.respiratory'),
       image: "🫁",
@@ -287,8 +282,7 @@ const MedicineAndDiagnosis = () => {
       name: "Omeprazole",
       usage: t('medicine.omeprazole.usage'),
       price: "200 BDT",
-      rating: 4.5,
-      reviews: 110,
+
       availability: t('medicine.availability.inStock'),
       condition: t('medicine.condition.digestive'),
       image: "🍽️",
@@ -299,8 +293,7 @@ const MedicineAndDiagnosis = () => {
       name: "Acetaminophen",
       usage: t('medicine.acetaminophen.usage'),
       price: "200 BDT",
-      rating: 4.7,
-      reviews: 180,
+
       availability: t('medicine.availability.inStock'),
       condition: t('medicine.condition.painManagement'),
       image: "💊",
@@ -311,8 +304,7 @@ const MedicineAndDiagnosis = () => {
       name: "Aspirin",
       usage: t('medicine.aspirin.usage'),
       price: "200 BDT",
-      rating: 4.6,
-      reviews: 145,
+
       availability: t('medicine.availability.inStock'),
       condition: t('medicine.condition.painManagement'),
       image: "💊",
@@ -323,8 +315,7 @@ const MedicineAndDiagnosis = () => {
       name: "Naproxen",
       usage: t('medicine.naproxen.usage'),
       price: "200 BDT",
-      rating: 4.5,
-      reviews: 90,
+
       availability: t('medicine.availability.inStock'),
       condition: t('medicine.condition.painManagement'),
       image: "💊",
@@ -335,8 +326,7 @@ const MedicineAndDiagnosis = () => {
       name: "Azithromycin",
       usage: t('medicine.azithromycin.usage'),
       price: "200 BDT",
-      rating: 4.8,
-      reviews: 75,
+
       availability: t('medicine.availability.prescriptionRequired'),
       condition: t('medicine.condition.infections'),
       image: "💉",
@@ -347,8 +337,7 @@ const MedicineAndDiagnosis = () => {
       name: "Doxycycline",
       usage: t('medicine.doxycycline.usage'),
       price: "200 BDT",
-      rating: 4.6,
-      reviews: 65,
+
       availability: t('medicine.availability.prescriptionRequired'),
       condition: t('medicine.condition.infections'),
       image: "💉",
@@ -359,8 +348,7 @@ const MedicineAndDiagnosis = () => {
       name: "Ciprofloxacin",
       usage: t('medicine.ciprofloxacin.usage'),
       price: "200 BDT",
-      rating: 4.7,
-      reviews: 88,
+
       availability: t('medicine.availability.prescriptionRequired'),
       condition: t('medicine.condition.infections'),
       image: "💉",
@@ -371,8 +359,7 @@ const MedicineAndDiagnosis = () => {
       name: "Amlodipine",
       usage: t('medicine.amlodipine.usage'),
       price: "200 BDT",
-      rating: 4.8,
-      reviews: 125,
+
       availability: t('medicine.availability.prescriptionRequired'),
       condition: t('medicine.condition.cardiovascular'),
       image: "❤️",
@@ -383,8 +370,7 @@ const MedicineAndDiagnosis = () => {
       name: "Atorvastatin",
       usage: t('medicine.atorvastatin.usage'),
       price: "200 BDT",
-      rating: 4.7,
-      reviews: 155,
+
       availability: t('medicine.availability.prescriptionRequired'),
       condition: t('medicine.condition.cardiovascular'),
       image: "❤️",
@@ -395,8 +381,7 @@ const MedicineAndDiagnosis = () => {
       name: "Metoprolol",
       usage: t('medicine.metoprolol.usage'),
       price: "200 BDT",
-      rating: 4.6,
-      reviews: 98,
+
       availability: t('medicine.availability.prescriptionRequired'),
       condition: t('medicine.condition.cardiovascular'),
       image: "❤️",
@@ -407,8 +392,7 @@ const MedicineAndDiagnosis = () => {
       name: "Insulin",
       usage: t('medicine.insulin.usage'),
       price: "200 BDT",
-      rating: 4.9,
-      reviews: 210,
+
       availability: t('medicine.availability.prescriptionRequired'),
       condition: t('medicine.condition.diabetes'),
       image: "🩸",
@@ -419,8 +403,7 @@ const MedicineAndDiagnosis = () => {
       name: "Glipizide",
       usage: t('medicine.glipizide.usage'),
       price: "200 BDT",
-      rating: 4.5,
-      reviews: 85,
+
       availability: t('medicine.availability.prescriptionRequired'),
       condition: t('medicine.condition.diabetes'),
       image: "🩸",
@@ -431,8 +414,7 @@ const MedicineAndDiagnosis = () => {
       name: "Fluticasone",
       usage: t('medicine.fluticasone.usage'),
       price: "200 BDT",
-      rating: 4.8,
-      reviews: 140,
+
       availability: t('medicine.availability.prescriptionRequired'),
       condition: t('medicine.condition.respiratory'),
       image: "🫁",
@@ -443,8 +425,7 @@ const MedicineAndDiagnosis = () => {
       name: "Montelukast",
       usage: t('medicine.montelukast.usage'),
       price: "200 BDT",
-      rating: 4.6,
-      reviews: 92,
+
       availability: t('medicine.availability.prescriptionRequired'),
       condition: t('medicine.condition.respiratory'),
       image: "🫁",
@@ -455,8 +436,7 @@ const MedicineAndDiagnosis = () => {
       name: "Pantoprazole",
       usage: t('medicine.pantoprazole.usage'),
       price: "200 BDT",
-      rating: 4.7,
-      reviews: 115,
+
       availability: t('medicine.availability.prescriptionRequired'),
       condition: t('medicine.condition.digestive'),
       image: "🍽️",
@@ -655,22 +635,8 @@ const MedicineAndDiagnosis = () => {
                     {medicine.description}
                   </p>
                   
-                  <div className="flex items-center justify-between">
-                    <div className="flex items-center space-x-2">
-                      {[...Array(5)].map((_, i) => (
-                        <Star 
-                          key={i} 
-                          className={`w-4 h-4 ${
-                            i < Math.floor(medicine.rating) 
-                              ? 'text-yellow-400 fill-current' 
-                              : 'text-gray-300'
-                          }`} 
-                        />
-                      ))}
-                      <span className="text-sm text-muted-foreground">
-                        ({medicine.reviews})
-                      </span>
-                    </div>
+                  <div className="flex items-center justify-end">
+
                     <span className="text-lg font-bold text-primary">
                       {medicine.price}
                     </span>
