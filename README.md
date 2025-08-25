@@ -32,8 +32,8 @@ To run this project locally, follow these steps:
 1.  **Clone the repository:**
 
     ```bash
-    git clone https://github.com/Aqib2607/medicmate-care-ui
-    cd medicmate-care-ui-master
+    git clone https://github.com/Aqib2607/medicmate_care
+    cd medicmate_care
     ```
 
 2.  **Install dependencies:**
